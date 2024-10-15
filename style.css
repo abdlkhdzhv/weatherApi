@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#search {
+    width: 100px;
+    height: 30px;
+}
+
+#content {
+    align-self: flex-start;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.cardWeatherCity {
+    width: 200px;
+    height: 100px;
+    background-color: rgb(5, 4, 9);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.cardWeatherCity > h3, h5 {
+    color: rgb(5, 244, 172)
+}
